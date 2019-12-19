@@ -1,0 +1,57 @@
+{
+    "name": "Crux",
+    "description": "Crux is a data operations service that adopts data supply chains, ensuring they mature into cohesive, stable, and performant systems. It's features include data management platforms, professional services, and a global data supplier network.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28227-www-cruxinformatics-com.jpg",
+    "tags": [
+        "api not found",
+        "data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/crux\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Crux",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28227-www-cruxinformatics-com.jpg",
+            "humanURL": "https:\/\/www.cruxinformatics.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/crux-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/crux-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/crux-informatics"
+        },
+        {
+            "type": "Email",
+            "url": "support@cruxinformatics.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@cruxinformatics.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/cruxinformatics"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.cruxinformatics.com"
+        }
+    ]
+}
