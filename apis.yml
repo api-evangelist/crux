@@ -1,7 +1,28 @@
 aid: crux
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crux.png
 name: Crux
-description: Crux is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Crux is a capital platform for the clean economy, connecting clean energy and
+  manufacturing developers with buyers, lenders, and investors. Its marketplace
+  facilitates the sale of transferable clean energy tax credits created under the
+  Inflation Reduction Act, alongside debt capital markets, tax equity, and preferred
+  equity solutions and advisory services. Crux pairs a transaction platform and secure
+  data room with market intelligence drawn from tens of billions of dollars in deal data,
+  serving project developers, manufacturers, tax credit buyers, banks, tax advisors, and
+  legal teams. The company is backed by Andreessen Horowitz (a16z) and was added to the
+  API Evangelist network as a portfolio lead. Crux operates a customer application but
+  does not publish a public developer API or OpenAPI at this time.
 url: https://raw.githubusercontent.com/api-evangelist/crux/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clean Energy
+- Climate Finance
+- Tax Credits
+- Capital Markets
+- Fintech
+- Energy
+- Marketplace
+- Sustainability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/crux-domain-security.yml
+- type: Website
+  url: https://www.crux.com/
+- type: Blog
+  url: https://www.crux.com/blog
+- type: SignUp
+  url: https://app.cruxclimate.com/login
+- type: Support
+  url: https://www.crux.com/contact
+- type: TermsOfService
+  url: https://www.crux.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.crux.com/privacy-policy
+- type: Compliance
+  url: https://www.crux.com/security
+- type: TrustCenter
+  url: security/crux-trust-center.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

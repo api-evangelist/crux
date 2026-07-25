@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.crux.com/security
+url: https://www.crux.com/security
+certifications:
+- SOC 2 Type 2
+detail: >-
+  Crux publishes a SOC 2 Type 2 attestation covering the Trust Services Criteria
+  for Security, Availability, Processing Integrity, Confidentiality, and Privacy.
+  The six-month audit observation period completed in May 2024 with a
+  fintech-specialized auditor; the report is made available under NDA for limited
+  distribution. Infrastructure is hosted on Supabase and Vercel, which maintain
+  their own SOC 2 Type 2 compliance across AWS, Azure, and GCP.
+evidence:
+- source: https://www.crux.com/security
+  keywords:
+  - soc 2 type 2
+  - security
+  - privacy
+  - confidentiality
